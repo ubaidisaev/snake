@@ -11,7 +11,7 @@ then
 ```
 open index.html
 ```
-
+d
 ## Authors
 
 **Ubaid Isaev** - *Initial work* - [Ubaidullah](https://github.com/ubaidulah)
@@ -21,4 +21,4 @@ open index.html
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Demo
-[Snake Game Demo]()
+[Snake Game Demo](https://ubaidulah.github.io/snake/)
