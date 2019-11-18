@@ -11,9 +11,6 @@ then
 ```
 open index.html
 ```
-## Authors
-
-[Ubaidullah](https://github.com/ubaidulah)
 
 ## License
 
