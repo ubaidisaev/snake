@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake Game</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__col">
+            <div class="checkbox">
+              <input type="checkbox" id="wall_setting"/>              
+              <label for="wall_setting" class="checkbox__label"
+                >Wall                
+              </label>
+            </div>
+          </div>
+
+          <div class="header__col">
+            <h1 id="title" class="font-heavy">SNAKE</h1>
+          </div>
+
+          <div class="header__col">
+            <h2>SCORE: <span id="currentScore">0</span></h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="game">
+      <div class="game__intro">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 57 55"
+          style="
+                      width: 80px;
+                  "
+        >
+          <defs>
+            <style>
+              .cls-1 {
+                fill: #fff;
+              }
+            </style>
+          </defs>
+          <path
+            class="cls-1"
+            d="M34.93,8.11H22.25A1.88,1.88,0,0,0,20.38,10V22.67a1.88,1.88,0,0,0,1.88,1.88H34.93a1.88,1.88,0,0,0,1.88-1.88V10A1.88,1.88,0,0,0,34.93,8.11ZM23.2,20.26l5.77-9,5.77,9Z"
+          ></path>
+          <path
+            class="cls-1"
+            d="M34.93,26.66H22.25a1.88,1.88,0,0,0-1.88,1.88V41.22a1.88,1.88,0,0,0,1.88,1.88H34.93a1.88,1.88,0,0,0,1.88-1.88V28.54A1.88,1.88,0,0,0,34.93,26.66ZM28.75,40l-5.77-9H34.52Z"
+          ></path>
+          <path
+            class="cls-1"
+            d="M15.94,26.66H3.26a1.88,1.88,0,0,0-1.88,1.88V41.22A1.88,1.88,0,0,0,3.26,43.1H15.94a1.88,1.88,0,0,0,1.88-1.88V28.54A1.88,1.88,0,0,0,15.94,26.66ZM4.82,34.82l9-5.77V40.59Z"
+          ></path>
+          <path
+            class="cls-1"
+            d="M56.07,28.54a1.88,1.88,0,0,0-1.88-1.88H41.51a1.88,1.88,0,0,0-1.88,1.88V41.22a1.88,1.88,0,0,0,1.88,1.88H54.19a1.88,1.88,0,0,0,1.88-1.88ZM43.84,40.45V28.92l9,5.77Z"
+          ></path>
+        </svg>
+        <button class="btn" id="game_start">start game</button>
+      </div>
+      <div class="game__over">
+        <h1>Game Over!</h1>
+        <button class="btn" id="restart_game">Restart</button>
+      </div>
+      <canvas
+        class="canvas"
+        id="canvas"
+        width="500px"
+        height="500"
+        tabindex="1"
+      >
+      </canvas>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
